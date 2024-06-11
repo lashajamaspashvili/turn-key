@@ -1,4 +1,3 @@
-import { Radio } from 'antd';
 import { SContainer, SDescription, SHeader } from './SApp.styled';
 import { RadioGroup } from './RadioGroup';
 

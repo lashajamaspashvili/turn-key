@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import tw from 'twin.macro';
 
 export const SContainer = styled.div`
-  ${tw`box-border mx-auto w-[1440px] px-[130px] pt-20 flex flex-col items-center bg-[#d7d7d7]`}
+  ${tw`box-border mx-auto w-[1440px] px-[130px] pt-20 flex flex-col items-center bg-[#c8a9b1]`}
 `;
 
 export const SHeader = styled.h1`
