@@ -13,6 +13,12 @@ export enum ProjectsEnum {
   zenefits = 'Zenefits'
 }
 
+export enum ProjectsSectionEnum {
+  hr = 'HR Management',
+  emp = 'Employers Base',
+  sal = 'Salary Management'
+}
+
 export type TurnKeyItem = {
   id: string;
   title: BusinessEnum;
@@ -20,6 +26,7 @@ export type TurnKeyItem = {
   projects: {
     id: string;
     title: ProjectsEnum;
+    section: ProjectsSectionEnum;
     active: boolean;
   }[];
 };

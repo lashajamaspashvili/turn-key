@@ -1,4 +1,9 @@
-import { BusinessEnum, ProjectsEnum, TurnKeyItem } from 'src/types';
+import {
+  BusinessEnum,
+  ProjectsEnum,
+  ProjectsSectionEnum,
+  TurnKeyItem
+} from 'src/types';
 
 export const TurnKeyItems: TurnKeyItem[] = [
   {
@@ -9,32 +14,38 @@ export const TurnKeyItems: TurnKeyItem[] = [
       {
         id: 'a',
         active: false,
-        title: ProjectsEnum.sapling
+        title: ProjectsEnum.sapling,
+        section: ProjectsSectionEnum.hr
       },
       {
         id: 'b',
         active: false,
-        title: ProjectsEnum.workday
+        title: ProjectsEnum.workday,
+        section: ProjectsSectionEnum.hr
       },
       {
         id: 'c',
         active: false,
-        title: ProjectsEnum.xero
+        title: ProjectsEnum.xero,
+        section: ProjectsSectionEnum.emp
       },
       {
         id: 'd',
         active: false,
-        title: ProjectsEnum.rippling
+        title: ProjectsEnum.rippling,
+        section: ProjectsSectionEnum.sal
       },
       {
         id: 'e',
         active: false,
-        title: ProjectsEnum.expensify
+        title: ProjectsEnum.expensify,
+        section: ProjectsSectionEnum.hr
       },
       {
         id: 'f',
         active: true,
-        title: ProjectsEnum.zenefits
+        title: ProjectsEnum.zenefits,
+        section: ProjectsSectionEnum.hr
       }
     ]
   },
@@ -46,32 +57,38 @@ export const TurnKeyItems: TurnKeyItem[] = [
       {
         id: 'g',
         active: true,
-        title: ProjectsEnum.sapling
+        title: ProjectsEnum.sapling,
+        section: ProjectsSectionEnum.hr
       },
       {
         id: 'h',
         active: true,
-        title: ProjectsEnum.workday
+        title: ProjectsEnum.workday,
+        section: ProjectsSectionEnum.hr
       },
       {
         id: 'i',
         active: false,
-        title: ProjectsEnum.xero
+        title: ProjectsEnum.xero,
+        section: ProjectsSectionEnum.emp
       },
       {
         id: 'j',
         active: false,
-        title: ProjectsEnum.rippling
+        title: ProjectsEnum.rippling,
+        section: ProjectsSectionEnum.sal
       },
       {
         id: 'k',
         active: false,
-        title: ProjectsEnum.expensify
+        title: ProjectsEnum.expensify,
+        section: ProjectsSectionEnum.hr
       },
       {
         id: 'l',
         active: false,
-        title: ProjectsEnum.zenefits
+        title: ProjectsEnum.zenefits,
+        section: ProjectsSectionEnum.hr
       }
     ]
   },
@@ -83,32 +100,38 @@ export const TurnKeyItems: TurnKeyItem[] = [
       {
         id: 'm',
         active: false,
-        title: ProjectsEnum.sapling
+        title: ProjectsEnum.sapling,
+        section: ProjectsSectionEnum.hr
       },
       {
         id: 'n',
         active: false,
-        title: ProjectsEnum.workday
+        title: ProjectsEnum.workday,
+        section: ProjectsSectionEnum.hr
       },
       {
         id: 'o',
         active: true,
-        title: ProjectsEnum.xero
+        title: ProjectsEnum.xero,
+        section: ProjectsSectionEnum.emp
       },
       {
         id: 'p',
         active: true,
-        title: ProjectsEnum.rippling
+        title: ProjectsEnum.rippling,
+        section: ProjectsSectionEnum.sal
       },
       {
         id: 'q',
         active: false,
-        title: ProjectsEnum.expensify
+        title: ProjectsEnum.expensify,
+        section: ProjectsSectionEnum.hr
       },
       {
         id: 'r',
         active: false,
-        title: ProjectsEnum.zenefits
+        title: ProjectsEnum.zenefits,
+        section: ProjectsSectionEnum.hr
       }
     ]
   }

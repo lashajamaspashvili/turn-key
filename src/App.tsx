@@ -1,5 +1,6 @@
 import { SContainer, SDescription, SHeader } from './SApp.styled';
 import { RadioGroup } from './RadioGroup';
+import { ProjectsSection } from './ProjectsSection';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         PTO.
       </SDescription>
       <RadioGroup />
+      <ProjectsSection />
     </SContainer>
   );
 }
